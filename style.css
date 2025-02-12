@@ -1,0 +1,23 @@
+/*
+Theme Name:   Web4SL Child Theme
+Theme URI:    https://flexlinetheme.com/
+Author:       Joel Schlotterer
+Author URI:   https://websitesforseniorliving.com
+Description:  A child theme for the Flexline theme.
+Template:     flexline
+Version:      1.0.0
+Text Domain:  web4sl
+*/
+
+/* Custom CSS can go below this line. */
+body.flexline {
+    --flexline-tabs-headline-font : var(--wp--preset--font-family--display);
+    --flexline-tabs-list-underline-color : var(--wp--preset--color--neutral-light);
+    --flexline-tabs-accordion-header-text-color : var(--wp--preset--color--base);
+    --flexline-pds-tabs-color-accent: var(--wp--preset--color--primary, #333);
+    --flexline-pds-tabs-active-tab-text-color-basic: var(--wp--preset--color--primary, #333);
+    --flexline-pds-tabs-active-tab-text-color: var(--wp--preset--color--primary-dark, #333);
+    --flexline-pds-tabs-color-background: transparent;
+    --flexline-pds-tabs-color-accent-contrast: var(--flexline-pds-tabs-color-background);  
+}
+   
